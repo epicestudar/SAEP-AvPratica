@@ -90,3 +90,35 @@ flowchart TD
 
 
 ```
+
+<br><br><br><br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=440&size=22&pause=1000&color=38F77CFF&center=false&vCenter=false&repeat=false&width=435&lines=Script do Banco" alt="Typing SVG" /></a>
+
+```script
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  nome  String
+  email String @unique
+  tasks Task[]
+}
+
+model Task {
+  id          Int      @id @default(autoincrement())
+  descricao   String
+  setor       String
+  prioridade  String
+  dataCadastro DateTime @default(now())
+  status      String   @default("a fazer")
+  userId      Int
+  user        User     @relation(fields: [userId], references: [id])
+}
+```
