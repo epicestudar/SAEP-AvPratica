@@ -14,10 +14,9 @@ O kanban foi utilizado por compartilhar as informações de forma visual, aument
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/API-FEITA-BLUE?style=for-the-badge" alt="backend" />
+   <img src="https://img.shields.io/badge/API-FEITA-blue?style=for-the-badge" alt="backend" />
   <img src="https://img.shields.io/badge/Documentação-FEITA-blue?style=for-the-badge" alt="documentação" />
-  <img src="https://img.shields.io/badge/Protótipos-FEITO-blue?style=for-the-badge" alt="mobile" />
-  <img src="https://img.shields.io/badge/Frontend-FEITO-BLUE?style=for-the-badge" alt="site" />
+  <img src="https://img.shields.io/badge/Frontend-FEITO-blue?style=for-the-badge" alt="site" />
 </p>
 <hr>
 <br>
